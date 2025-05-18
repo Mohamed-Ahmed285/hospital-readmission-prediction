@@ -1,0 +1,139 @@
+{
+    "gender": {
+        "Female": 0,
+        "Male": 1
+    },
+    "admission_type_id": {
+        "Elective": 0,
+        "Emergency": 1,
+        "Newborn": 2,
+        "Trauma Center": 3,
+        "Urgent": 4
+    },
+    "discharge_disposition_id": {
+        "Discharged to home": 0,
+        "Discharged/transferred to ICF": 1,
+        "Discharged/transferred to SNF": 2,
+        "Discharged/transferred to another short term hospital": 3,
+        "Discharged/transferred to another type of inpatient care institution": 4,
+        "Discharged/transferred to home with home health service": 5,
+        "Left AMA": 6,
+        "Other": 7
+    },
+    "admission_source_id": {
+        "Clinic Referral": 0,
+        "Court/Law Enforcement": 1,
+        "Emergency Room": 2,
+        "HMO Referral": 3,
+        "Physician Referral": 4,
+        "Transfer from a Skilled Nursing Facility (SNF)": 5,
+        "Transfer from a hospital": 6,
+        "Transfer from another health care facility": 7
+    },
+    "medical_specialty": {
+        "Cardiology": 0,
+        "Emergency/Trauma": 1,
+        "Endocrinology": 2,
+        "Family/GeneralPractice": 3,
+        "Gastroenterology": 4,
+        "Hematology/Oncology": 5,
+        "InternalMedicine": 6,
+        "Nephrology": 7,
+        "Neurology": 8,
+        "ObstetricsandGynecology": 9,
+        "Oncology": 10,
+        "Orthopedics": 11,
+        "Orthopedics-Reconstructive": 12,
+        "Other": 13,
+        "Otolaryngology": 14,
+        "Pediatrics": 15,
+        "Pediatrics-Endocrinology": 16,
+        "PhysicalMedicineandRehabilitation": 17,
+        "Podiatry": 18,
+        "Psychiatry": 19,
+        "Psychology": 20,
+        "Pulmonology": 21,
+        "Radiologist": 22,
+        "Surgery-Cardiovascular/Thoracic": 23,
+        "Surgery-General": 24,
+        "Surgery-Neuro": 25,
+        "Surgery-Thoracic": 26,
+        "Surgery-Vascular": 27,
+        "Urology": 28
+    },
+    "readmitted": {
+        "<30": 0,
+        ">30": 1,
+        "NO": 2
+    },
+    "insulin": {
+        "Down": 0,
+        "No": 1,
+        "Steady": 2,
+        "Up": 3
+    },
+    "glyburide-metformin": {
+        "Down": 0,
+        "No": 1,
+        "Steady": 2,
+        "Up": 3
+    },
+    "rosiglitazone": {
+        "Down": 0,
+        "No": 1,
+        "Steady": 2,
+        "Up": 3
+    },
+    "pioglitazone": {
+        "Down": 0,
+        "No": 1,
+        "Steady": 2,
+        "Up": 3
+    },
+    "glyburide": {
+        "Down": 0,
+        "No": 1,
+        "Steady": 2,
+        "Up": 3
+    },
+    "glipizide": {
+        "Down": 0,
+        "No": 1,
+        "Steady": 2,
+        "Up": 3
+    },
+    "glimepiride": {
+        "Down": 0,
+        "No": 1,
+        "Steady": 2,
+        "Up": 3
+    },
+    "nateglinide": {
+        "Down": 0,
+        "No": 1,
+        "Steady": 2,
+        "Up": 3
+    },
+    "repaglinide": {
+        "Down": 0,
+        "No": 1,
+        "Steady": 2,
+        "Up": 3
+    },
+    "metformin": {
+        "Down": 0,
+        "No": 1,
+        "Steady": 2,
+        "Up": 3
+    },
+    "max_glu_serum":{
+        ">200":0,
+        ">300":1,
+        "Norm":2
+    },
+    "A1Cresult":{
+       ">7":0, 
+       ">8":1, 
+       "Norm":2 
+    }
+}
